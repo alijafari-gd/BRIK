@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BRIK</string>
+    <string name="title_activity_block">BlockActivity</string>
+</resources>

@@ -1,0 +1,22 @@
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Permissions">
+
+        <CheckBoxPreference
+            android:key="post_notification_permission"
+            app:title="Notification Permission"
+            app:summary="Allow BRIK to send session event and status via notification"/>
+
+        <CheckBoxPreference
+            android:key="overlay_permission"
+            app:title="Overlay Permission"
+            app:summary="BRIK needs this permission to open the blocking screen while the app is in the background"/>
+
+        <CheckBoxPreference
+            android:key="device_admin_permission"
+            app:title="Device Admin Permission"
+            app:summary="Protects the app from being uninstalled or stopped when the device is blocked"/>
+    </PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>
